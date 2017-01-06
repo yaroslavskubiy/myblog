@@ -1,4 +1,4 @@
-<?php include "templates/include/header.php" ?>
+<?php include "templates/admin/header.php" ?>
  
       <form action="admin.php?action=login" method="post" style="width: 50%;">
         <input type="hidden" name="login" value="true" />

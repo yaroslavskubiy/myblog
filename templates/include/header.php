@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
 	<title><?php echo htmlspecialchars( $results['pageTitle'] )?></title>
@@ -6,22 +7,16 @@
 	<link rel="stylesheet" href="templates/css/jquery.jcarousel.css" type="text/css" media="all" />
 	
 	<link rel="shortcut icon" href="templates/css/images/favicon.ico" />
-	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jcarousel.pack.js"></script>
-	<script type="text/javascript" src="js/func.js"></script>
+	<script type="text/javascript" src="templates/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="templates/js/jquery.jcarousel.pack.js"></script>
+	<script type="text/javascript" src="templates/js/func.js"></script>
 </head>
 <body>
 <div class="shell">
 	<div class="border">
 		<div id="header">
 			<h1 id="logo"><a href="#" class="notext">beSmart</a></h1>
-			<div class="socials right">
-				<ul>
-				    <li><a href="#" class="rss">RSS</a></li>
-				    <li><a href="#" class="fb">Facebook</a></li>
-				    <li class="last"><a href="#" class="twit">Twitter</a></li>
-				</ul>
-			</div>
+			
 			<div class="cl">&nbsp;</div>
 		</div>
 		
